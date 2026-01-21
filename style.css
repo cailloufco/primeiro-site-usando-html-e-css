@@ -98,5 +98,5 @@ section > header > h2 {
 }
 #juntar {
   display: flex;
-  gap: 60px;
+  justify-content: space-around;
 }
