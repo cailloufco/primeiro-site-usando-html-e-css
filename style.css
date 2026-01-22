@@ -16,7 +16,7 @@ nav {
   margin-top: 10px;
 }
 nav > a {
-  margin-left: 10px;
+  margin-left: 1em;
   text-decoration: none;
 }
 nav > a:hover {
@@ -35,7 +35,7 @@ main {
   padding: 6px;
 }
 .paragrafo {
-  margin: 20px 20px;
+  padding: 0px 1em 0px 1em;
   font-size: 1.1em;
 }
 
@@ -44,10 +44,11 @@ picture {
   margin-top: 10px;
   justify-content: center;
   align-items: center;
+  padding: 1em;
 }
 img {
   width: 100%;
-  padding: 30px;
+  
 }
 .links {
   background-color: #00d400;
@@ -67,26 +68,26 @@ footer {
 
 #video {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 2em;
+  margin-bottom: 3em;
   justify-content: center;
   align-items: center;
   background-color: #00af00;
   padding: 10px;
 }
 .subtitulo {
-  margin: 0px 0px 0px 10px;
+  margin: 0em 0em 0em 1em;
   font-family: "Orbitron";
   color: #006900;
 }
 .subtitulo2 {
-  margin-left: 10px;
+  margin-left: 1em;
   font-family: "Orbitron";
   background-image: linear-gradient(to right, #4cf04c, transparent);
 }
 section {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 2em;
+  margin-right: 2em;
   background-color: #3df83d;
   border-radius: 5px;
   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.274);
